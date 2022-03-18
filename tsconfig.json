@@ -6,7 +6,11 @@
         "noEmit": true,
         "isolatedModules": true,
         "esModuleInterop": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "resolveJsonModule": true
     },
     "include": ["./src/**/*"]
 }
