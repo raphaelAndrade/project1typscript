@@ -10,7 +10,12 @@ module.exports = {
             test: /\.tsx?$/,
             loader: "babel-loader",
             exclude: /node_modules/,
-        }]
+        },
+    {
+        test: /\.svg$/,
+        loader: '@svgr/webpack',
+    }
+    ]
     },
     plugins: [
         new HtmlWebpackPluing({
